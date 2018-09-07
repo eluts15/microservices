@@ -1,5 +1,4 @@
 build:
-		protoc --go_out=plugins=grpc:. *.proto
 		docker build -t user-cli .
 
 run:
